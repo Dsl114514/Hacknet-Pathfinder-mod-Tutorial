@@ -2,7 +2,7 @@
 ## > 
 > * [Actions]()
 > * [Commands]()
-> * [Conditions]()
+> * [Conditions](Conditions.md)
 > * [Daemons]()
 > * [Executables](Executables.md)
 > * [Missions]()
@@ -10,5 +10,6 @@
 > * [Administrators]()
 
 > * [Gui]()   
+
 
 
