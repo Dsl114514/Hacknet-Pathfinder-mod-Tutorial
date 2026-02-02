@@ -28,5 +28,6 @@ namespace HacknetPluginTemplate
 > Mod的版本号（只能是数字）
 * Load（）
 > 用于"注册"Mod的 Executables,Actions等
-
+# 恭喜你有一个基本的模组!  
+让我们继续
   
