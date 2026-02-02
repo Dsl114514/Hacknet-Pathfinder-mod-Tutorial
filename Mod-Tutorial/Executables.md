@@ -65,7 +65,7 @@ public class BasicExecutable : Pathfinder.Executable.BaseExecutable
 >
 > isExiting = true 关闭程序
 
-* ***打开端口*** 
+## ***打开端口*** 
 ```
 Programs.getComputer(os, targetIP).openPort("Port", os.thisComputer.ip);
 ```
@@ -74,7 +74,7 @@ Programs.getComputer(os, targetIP).openPort("Port", os.thisComputer.ip);
 > targetIP 玩家在执行Executables时连接的 IP  
 > thisComputer 玩家电脑
 
-* ***注册***    
+## ***注册***    
 
 * *在mod主文件的Load()里注册*
 ```
@@ -88,7 +88,7 @@ Pathfinder.Executable.ExecutableManager.RegisterExecutable<BasicExecutable>("#PF
 ```
 <file path="bin" name="Crack.exe">#PF_BASIC_EXE#</file>
 ```
-* ***退出***  
+## ***退出***  
 
 * 实例
 ```
