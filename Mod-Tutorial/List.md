@@ -1,7 +1,7 @@
 # 功能制作列表
 ## > 
 > * [Actions]()
-> * [commands]()
+> * [Commands]()
 > * [Conditions]()
 > * [Daemons]()
 > * [Executables]()
@@ -10,3 +10,4 @@
 > * [Administrators]()
 
 > * [Gui]()   
+
