@@ -51,6 +51,8 @@
   _使用Hacknet-Pathfinder Releases 提供的zip文件安装_  
    将文件夹中的 Hacknet.bin.x86_64文件复制并命名为​ HacknetPathfinder.bin.x86_64  
    确保文件名与生成的 HacknetPathfinder.exe对应，以匹配 64 位 Linux 架构。
+- - -
+## [mod制作](Mod-Tutorial/start.md)  
 
-## mod制作
- *** 正在写 ***
+- - -
+ 
