@@ -53,26 +53,32 @@ public class BasicExecutable : Pathfinder.Executable.BaseExecutable
 }
 ```
 
-> ramCost 程序占有的内存
+> **ramCost** 程序占有的内存
 >
-> IdentifierName 程序RaM栏显示的名称
+> **IdentifierName** 程序RaM栏显示的名称
 >
-> LoadContent(){} 首次执行后触发的内容
+> **LoadContent(){}** 首次执行后触发的内容
 >
-> Draw(float t){} 程序的主窗口，可以在里面绘制动画
+> **Draw(float t){}** 程序的主窗口，可以在里面绘制动画
 >
-> Update(float t){} 循环触发（每帧）
+> **Update(float t){}** 循环触发（每帧）
 >
-> isExiting = true 关闭程序
+> **isExiting = true** 缓慢关闭程序
+> **needsRemoval = ture** 立即关闭程序
 
 ## ***打开端口*** 
 ```
 Programs.getComputer(os, targetIP).openPort("Port", os.thisComputer.ip);
 ```
+## ***关闭端口***  
+```
+computer.closePort(computer.GetDisplayPortNumberFromCodePort(Port number),computer.ip)
+```
  
-> Port 填入对应的端口协议，可在 [端口页](Ports.md) 查看详情  
-> targetIP 玩家在执行Executables时连接的 IP  
-> thisComputer 玩家电脑
+> **Port** 填入对应的端口协议，可在 [端口页](Ports.md) 查看详情  
+> **targetIP** 玩家在执行Executables时连接的 IP  
+> **thisComputer** 玩家电脑  
+> **Port number** 填入端口号（int）
 
 ## ***注册***    
 
@@ -84,7 +90,7 @@ Pathfinder.Executable.ExecutableManager.RegisterExecutable<BasicExecutable>("#PF
 ```
 [Pathfinder.Meta.Load.Executable("#PF_BASIC_EXE#")]
 ```
-> #PF_BASIC_EXE# 为在xml里调用的方法 如下
+> **#PF_BASIC_EXE#** 为在xml里调用的方法 如下
 ```
 <file path="bin" name="Crack.exe">#PF_BASIC_EXE#</file>
 ```
