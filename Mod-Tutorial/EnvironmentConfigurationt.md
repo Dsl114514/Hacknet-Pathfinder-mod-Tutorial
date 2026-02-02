@@ -7,4 +7,4 @@
 ### 下载Mod开发模板
 * [Mod模板](https://github.com/Windows10CE/HacknetPluginTemplate)  
 ***修改其中的 HacknetPluginTemplate和 HacknetPluginTemplate.csproj分别为你的模组名和你改名后的.csproj文件名并保存。***
-# [真正的开始](Mod-Tutorial/Start.md)
+# [真正的开始](Start.md)
