@@ -29,5 +29,5 @@ namespace HacknetPluginTemplate
 * Load（）
 > 用于"注册"Mod的 Executables,Actions等
 # 恭喜你有一个基本的模组!  
-[让我们继续](Mod-Tutorial/List.md)
+[让我们继续](List.md)
   
